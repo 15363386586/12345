@@ -1,0 +1,65 @@
+body{font-size: 13px;margin: 0px;padding: 0px;font-family: "宋体";font: "宋体";background: #fcfcfc;}
+ul,li,p{margin: 0px;padding: 0px;text-decoration: none;list-style: none;}
+input{outline: none;}
+select{outline: none;}
+a:link,a:visited{text-decoration: none;font-size: 13px;color: black;}
+a:hover{color:#FF8400 ;}
+.fl{float: left;}
+.fr{float: right;}
+.header{height: 80px;border-top: 1px solid #e1e1e1;background: white;}
+.backchange{height: 3px;background: linear-gradient(0deg,#f7f7f7,#e1e1e1);}
+.logo{width: 1200px;height: 80px;margin: 0 auto;margin-top: 15px;line-height: 20px;position: relative;}
+.li2{color: gray;	}
+.li1{margin-top: -3px;margin-right: 10px;margin-left: 20px;padding-left: 26px;padding-right: 22px;padding-top: 2px;padding-bottom: 2px;
+background: url(../img/runbun.png) no-repeat 5px 3px,url(../img/t_arrow.gif) no-repeat 82px 9px;border-left:1px solid white;border-right:1px solid white;border-top:1px solid white;}
+.li1:link,.li1:visited{}
+.li1:hover{color: #FF8400;}
+.li2 a:link,.li2 a:visited{color: blue;}
+.li2 a:hover{color:#FF8400;}
+.helpcenter{background: white;z-index: 1;position: absolute;right: 10px;top: 20px;border-left:1px solid #cccccc;border-right:1px solid #cccccc;border-bottom:1px solid #cccccc;}
+.helpcenter li{border-top: 1px dotted #CCCCCC;width: 70px;padding: 2px 15px;text-align: center;}
+/*中间部分*/
+.center{width:1000px;margin: 0 auto;}
+.left{margin-top: 70px;float: left;margin-left: 10px;}
+.right,.right2{position: relative;float: right;background: white;width: 400px;height: 410px;margin-top: 25px;margin-right: 10px;}
+.right ul,.right2 ul{width: 330px;margin: 0 auto;margin-top: 50px;}
+.right ul li,.right2 ul li{width: 330px;float: left;color: gray;}
+.right ul li a{color: gray;}
+.right >ul li:nth-of-type(1) font{font-weight: 550;font-size: 14px;float: left;color: gray;}
+.right ul li:nth-of-type(1) a:link,.right ul li:nth-of-type(1) a:visited{float: right;color: blue;}
+.right ul li:nth-of-type(1) a:hover{color:#FF8400 ;}
+.input1,.input2{height: 50px;width: 278px;margin-top: 10px;padding-left: 50px;color: gray;font-size: 14px;border:1px solid #CCCCCC;}
+.input1{background: url(../img/userHead.png) no-repeat 15px 13px;}
+.input2{background: url(../img/lock.png) no-repeat 13px 9px;}
+.right ul li:nth-of-type(4){margin-top: 13px;margin-bottom: 15px;}
+.right ul li:nth-of-type(4) a{float: right;}
+.checkbox1{float: left;height: 12px;width: 12px;border: 1px solid darkgrey;margin-right: 3px;cursor: pointer;}
+.checkbox1:link,.checkbox1:visited{}
+.checkbox1:hover{border: 1px solid #ff875a;}
+#admin{width: 100px;text-align: center;display: block;color: white;border-radius: 5px;font-size: 19px;background: #ff3c3c;padding: 15px 115px;}
+.right ul li:nth-of-type(6){margin-top: 10px;margin-bottom: 15px;}
+.otherweb a{display: block;float: left;width:35px;height: 35px;margin-right: 20px;}
+.otherweb a img{width:35px;height: 35px;}
+#webspan{padding-right: 17px;line-height: 40px;background: url(../img/loadMore.png) no-repeat 80px 0px;background-size: 15px;cursor: pointer;}
+.moreweb img{margin-right: 10px;width: 92px;height: 20px;margin-top: 8px;}
+.moreweb{margin-left: 5px;}
+/*最后*/
+#finally{position: absolute;right: 350px;bottom: -60px;}
+#finally li{width: 400px;font-weight: 500;}
+#finally font{float: left;}
+#finally a{float: left;color: gray;}
+#finally a:link,#finally a:visited{}
+#finally a:hover{color: #FF8400;}
+#finally li:first-child{margin-left: 50px;margin-bottom: 10px;}
+#qingwu{margin-left: 20px;color: red;}
+.erweima{position:absolute; bottom: 0px;right: 0px;width: 62px;height: 62px;
+background:url(../img/codeSwich.png) no-repeat -88px 0;cursor: pointer;}
+.erweima:link,.erweima:visited{}
+.erweima:hover{background:url(../img/codeSwich.png) no-repeat -88px -88px;}
+.ewm{text-align: center;margin-top: 50px;}
+.computer{position:absolute; bottom: 0px;right: 0px;width: 62px;height: 62px;
+background:url(../img/codeSwich.png) no-repeat 0 0;cursor: pointer;}
+.computer:link,.computer:visited{}
+.computer:hover{background:url(../img/codeSwich.png) no-repeat 0 -88px;}
+.em{position: absolute;right: 18px;bottom: 19px; width: 0; height: 0;border: 43px solid transparent;-webkit-transform: rotate(46deg);cursor: default;z-index: 1;}
+#webspan,.moreweb{position: relative;z-index: 5;}
